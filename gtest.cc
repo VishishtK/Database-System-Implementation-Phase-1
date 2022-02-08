@@ -1,5 +1,10 @@
 #include "gtest/gtest.h"
+#include <iostream>
+#include "Record.h"
 #include "DBFile.h"
+#include "DBFile.cc"
+#include <stdlib.h>
+using namespace std;
 
 class DBFileTest : public ::testing::Test {
 protected:
